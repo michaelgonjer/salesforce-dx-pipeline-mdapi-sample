@@ -2,14 +2,29 @@
   "name": "salesforce-dx-pipeline-sample",
   "version": "0.0.1",
   "description": "Test application for the salesforce-dx-buildpack",
-  "repository": "https://github.com/wadewegner/salesforce-dx-pipeline-sample",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --reporter tap"
+  },
+  "repository": "https://github.com/storm934/salesforce-dx-pipeline-sample",
   "author": "",
   "license": "ALv2",
   "bugs": {
     "url": "https://github.com/wadewegner/salesforce-dx-pipeline-sample/issues"
   },
   "homepage": "https://github.com/wadewegner/salesforce-dx-pipeline-sample#readme",
-  "dependencies": {},
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.5",
+    "express": "^4.0.0",
+    "mocha": "^3.3.0"
+  },
+  "engines": {
+    "ejs": "2.5.5"
+  },
   "devDependencies": {},
   "buildpacks": [{
     "url": "https://github.com/wadewegner/salesforce-cli-buildpack#v3"
@@ -32,4 +47,15 @@
       }
     }
   }
+"keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Mark Pundsack",
+  "contributors": [
+    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
+    "Hector Simpson <hector@heroku.com> (http://heroku.com)"
+  ],
+  "license": "MIT"
 }
