@@ -25,10 +25,10 @@ HEROKU_PROD_APP_NAME="prod$TICKS"
 HEROKU_PIPELINE_NAME="pipeline$TICKS"
 
 # Usernames or aliases of the orgs you're using
-DEV_HUB_USERNAME="j.gilabert@sfdxdemo.com"
-DEV_USERNAME="j.gilabert@sfdxdemo.com"
-STAGING_USERNAME="j.gilabert@sfdxdemo.com"
-PROD_USERNAME="j.gilabert@sfdxdemo.com"
+DEV_HUB_USERNAME="michael.jeronimo@liquidstudiodemo.com"
+DEV_USERNAME="michael.jeronimo@liquidstudiodemo.com"
+STAGING_USERNAME="j.gilabert.espinola@accenture.com"
+PROD_USERNAME="michael.jeronimo@liquidstudio.com"
 
 # Repository with your code
 GITHUB_REPO="wadewegner/salesforce-dx-pipeline-sample"
